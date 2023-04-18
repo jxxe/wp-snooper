@@ -80,7 +80,7 @@
 
             <label>
                 <span class="text-sm">Filters</span>
-                <button class:bg-gray-200={filterPdfs} class="block border py-1 px-2 bg-gray-50 hover:border-black" on:click={() => filterPdfs = !filterPdfs}>Only PDFs</button>
+                <button class:bg-gray-200={filterPdfs} class="block border py-1 px-2 hover:border-black" on:click={() => filterPdfs = !filterPdfs}>Only PDFs</button>
             </label>
 
             <button class="block border py-1 px-2 bg-gray-50 hover:border-black" on:click={loadMedia}>→</button>
